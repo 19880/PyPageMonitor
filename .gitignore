@@ -1,5 +1,5 @@
 #PyPageMonitor
-cache/
+cache/*
 watchweb.ini
 mailconfig.ini
 
