@@ -128,6 +128,5 @@ def watch():
 		
 if __name__ == '__main__':
 	global MAIL_CONFIG
-
-	logging.basicConfig(filename = 'monitor.log',level=logging.ERROR)
+	# logging.basicConfig(filename = 'monitor.log',level=logging.ERROR)
 	watch()
