@@ -1,4 +1,7 @@
 #PyPageMonitor
+cache/
+watchweb.ini
+mailconfig.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
