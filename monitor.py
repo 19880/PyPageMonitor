@@ -61,7 +61,7 @@ def check_web(**web):
 	}
 	cookies = dict(__jsluid='f93f2af7849678574390310f47eedabf', __jsl_clearance='1441972658.715|0|YupPuYPVQKTT7URFn1zEZGnBeJg%3D')		#什么值得买cookie
 	watch_url = web[watchweb.URL]
-	data_file = 'Cache/' + text_md5(watch_url) +'.data'
+	data_file = '.cache/' + text_md5(watch_url) +'.data'
 	r = requests.get(watch_url, headers=user_agent, cookies=cookies, timeout=4)
 	doc=pq(r.text)
 	title = doc('title')
